@@ -32,5 +32,14 @@ function randomNumberGenerator(){
 
 randomBtn.addEventListener(`click`,randomNumberGenerator)
 
+const tableImages = [
 
+]
+
+const h2Element = document.getElementById(`h2`)
+const imgElement = document.getElementById(`imgomething`)
+
+function changeImg(){
+    imgElement.src = tableImages[2]
+}
 
